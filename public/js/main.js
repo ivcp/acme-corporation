@@ -178,7 +178,7 @@
   ///////////////////////////////////////////
   // Color Picker
   ///////////////////////////////////////////
-  let color = window.localStorage.color || '#4f46e5';
+  let color = window.localStorage.color || '<no value>';
   function setColor(hex) {
     color = hex;
     window.localStorage.color = color;
